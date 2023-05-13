@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>Div</title>
+	<style type = "text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #div1 {
+            width: 200px;
+            height: 50px;
+            background-color: black;
+            /*绝对定位*/
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+
+        #div2 {
+            width: 200px;
+            height: 50px;
+            background-color: pink;
+
+            /*position: relative;*/
+            float: left;
+            margin-left: 20px;
+            /*left: 100px;*/
+            /*top: 100px;*/
+        }
+
+        #div3 {
+            height: 50px;
+            background-color: blue;
+        }
+
+        #div4 {
+            height: 50px;
+            width: 200px;
+            background-color: burlywood;
+            float: left;
+        }
+
+        #div5 {
+            height: 50px;
+            width: 200px;
+            background-color: chartreuse;
+            float: left;
+        }
+		div
+		{
+			position: relative;
+		}
+	</style>
+<!--
+	position: absolute --绝对定位 需要配合使用left、top
+	relative: 相对定位 一般会和float、margin、padding配合使用
+-->
+</head>
+<body>
+<!--<div id = "div1">&nbsp</div>-->
+<!--<div id = "div2">&nbsp</div>-->
+<div id = "div3">
+	<div id = "div4">
+		&nbsp;
+	</div>
+	<div id = "div5">
+		&nbsp;
+	</div>
+</div>
+</body>
+</html>

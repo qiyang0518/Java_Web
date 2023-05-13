@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    padding: 0;
+     background-color: burlywood;
+    /*margin-top: 0;*/
+}
+
+div {
+    position: relative;
+    float: left;
+    border-radius: 2px;
+    width: 200px;
+    height: 100px;
+}
+
+#div_container {
+    width: 20px;
+    height: 20px;
+    border-color: chocolate ;
+    margin-left: 10%;
+    float: left;;
+}
+#fruit_list
+{
+    width: 100%;
+}
+#fruit_list,#tb_fruit,tr,td
+{
+    border: 10px black;
+}
+#tr
+{
+    align-content: center;
+}
