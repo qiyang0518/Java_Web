@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>盒子阴影</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+        div
+        {
+            width: 200px;
+            height: 200px;
+            background-color: #81c459;
+            margin: 100px auto;
+            /*直接显示阴影*/
+            /*box-shadow: 10px 10px 10px -4px rgba(0,0,0,.3);*/
+        }
+        div:hover
+        {
+            /*鼠标经过显示阴影*/
+            box-shadow: 10px 10px 10px -4px rgba(0,0,0,.3) inset;
+        }
+    </style>
+</head>
+<body>
+<div>
+
+</div>
+</body>
+</html>
